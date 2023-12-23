@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <style>
+        body {
+           background-color: #FFFFCC;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+        }
+
+        .container {
+            background-image:url(./assets/bg1.png);
+            max-width: 1500px;
+            margin: 50px auto;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color:#FBD5AB;
+            font-weight: bold;
+            font-size: 50px;
+            margin-top: 20px;
+        }
+
+        p {
+            font-size: 28px;
+            color: #B86500;
+        }
+
+        .cake {
+            width: 600px;
+            height: 500px;
+            margin: 20px auto;
+            margin-top: 200px;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .image {
+            width: 400px;
+            height: 300px;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .image img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px; /* Ensure that the border-radius is applied to the image inside the link */
+        }
+
+        .image a {
+            display: block;
+            text-decoration: none;
+            margin-top: 10px; /* Adjust spacing as needed */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Happy Birthday</h1>
+        <img src="./assets/lara1.png" alt="Birthday Cake" class="cake">
+        <p>Wishing you a day filled with joy, laughter, and lots of love. May all your dreams come true!</p>
+        <p>Click the image below haha</p>
+        <div class="image-container">
+            <div class="image">
+                <a href="page1.html">
+                    <img src="./assets/logic1.jpg" alt="Image 1">
+                </a>
+            </div>
+            <div class="image">
+                <a href="page2.html">
+                    <img src="./assets/ic1.jpg" alt="Image 2">
+                </a>
+            </div>
+            <div class="image">
+                <a href="page3.html">
+                    <img src="./assets/trio1.jpg" alt="Image 3">
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
